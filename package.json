@@ -1,7 +1,5 @@
 {
   "name": "OnRepeat",
   "private": "true",
-  "dependencies": {
-    "@auth0/auth0-react": "^1.1.0"
-  }
+  
 }
