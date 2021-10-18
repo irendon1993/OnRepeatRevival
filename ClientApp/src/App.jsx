@@ -5,7 +5,8 @@ import { Home } from './components/Home';
 import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 import { isLoggedInOnSpotify } from './auth';
-import { Header } from './components/Header'
+import { Header } from './components/Header';
+import { MyCharts } from './pages/MyCharts';
 import './custom.css'
 
 
@@ -16,11 +17,11 @@ export function App() {
         <Header /> 
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route path='/charts' component={MyCharts} />
         <Route path='/counter' component={Counter} />
         <Route path='/fetch-data' component={FetchData} />
 
       </Switch>
-    );
     </main>
     )
     }
