@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route,Switch } from 'react-router-dom';
 import { Layout } from './components/Layout';
-import { Home } from './components/Home';
+import { Home } from './pages/Home';
 import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 import { isLoggedInOnSpotify } from './auth';
