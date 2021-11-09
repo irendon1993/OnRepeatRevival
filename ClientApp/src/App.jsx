@@ -8,6 +8,7 @@ import { isLoggedInOnSpotify } from './auth';
 import { Header } from './components/Header';
 import { MyCharts } from './pages/MyCharts';
 import './custom.css'
+import { SpotifyAuthCallback } from './SpotifyCallBack';
 
 
 export function App() {
@@ -20,7 +21,9 @@ export function App() {
         <Route path='/charts' component={MyCharts} />
         <Route path='/counter' component={Counter} />
         <Route path='/fetch-data' component={FetchData} />
-
+        <Route path="/callback" component={SpotifyAuthCallback}>
+          <SpotifyAuthCallback />
+        </Route>
       </Switch>
     </main>
     )
