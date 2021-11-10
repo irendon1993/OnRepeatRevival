@@ -1,0 +1,45 @@
+.createPlaylist {
+  display: flex;
+  justify-content: center;
+  .creatorContainer {
+    border: groove;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .creator {
+    height: 350px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+
+    form {
+      display: flex;
+      justify-content: center;
+
+      button {
+        justify-content: center;
+      }
+    }
+  }
+  ul {
+    list-style: none;
+  }
+
+  button.recommendationButton {
+    margin-left: 150px;
+    justify-content: center;
+  }
+
+  article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}

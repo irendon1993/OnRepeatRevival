@@ -9,7 +9,7 @@ import { isLoggedInOnSpotify } from './auth';
 import { Header } from './components/Header';
 import { MyCharts } from './pages/MyCharts';
 import { CreateAPlaylist } from './pages/CreateAPlaylist'
-import './custom.css'
+import './styles/main.scss'
 import { SpotifyAuthCallback } from './SpotifyCallBack';
 
 

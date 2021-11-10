@@ -1,0 +1,140 @@
+.onePlaylist {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: center;
+
+  .playlistSection {
+    height: 1200px;
+    width: 1200px;
+
+    .tableContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    table {
+      justify-content: center;
+      width: 50vw;
+      border-collapse: collapse;
+      border-spacing: 0;
+      min-width: 400px;
+      // border: 1px solid purple;
+      // .categoryList {
+      //   border: 1px solid red;
+
+      //   .trackCategory {
+      //     border: 1px solid blue;
+      //   }
+
+      //   .artistCategory {
+      //     border: 1px solid yellow;
+      //   }
+      //   .albumCategory {
+      //     border: 1px solid pink;
+      //   }
+      // }
+      // tbody {
+      //   border: 1px solid red;
+      // }
+      // .track {
+      //   border: 1px solid green;
+      // }
+    }
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .buttonDiv {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .deleteButton {
+    background-color: red;
+    border-color: red;
+  }
+  .renameDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  label {
+    padding-right: 3px;
+  }
+
+  .nameButton {
+    margin-left: 3px;
+  }
+}
+// ul {
+//   list-style: none;
+//   display: flex;
+//   margin-top: 10px;
+
+//   .trackCategory {
+//     margin-left: 75px;
+//     width: 350px;
+//   }
+
+//   .artistCategory {
+//     width: 350px;
+//   }
+// }
+
+// .track {
+//   // border: 1px solid grey;
+//   list-style: none;
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: row;
+
+//   .trackDiv {
+//     width: 350px;
+//     justify-content: center;
+//     display: flex;
+//     border: groove;
+// }
+
+// .artistDiv {
+//   width: 350px;
+//   justify-content: center;
+//   display: flex;
+//   border: groove;
+// }
+
+// .albumDiv {
+//   width: 350px;
+//   display: flex;
+//   justify-content: center;
+//   border: groove;
+// }
+
+// li {
+//   padding: 10px;
+// }
+// }

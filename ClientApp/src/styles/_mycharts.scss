@@ -1,0 +1,90 @@
+.myCharts {
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 750;
+    // border: 1px solid blue;
+  }
+
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 650;
+    border-top: 1px solid grey;
+  }
+
+  .chartsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // border: 1px solid yellow;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .topArticle {
+    height: 950px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+
+    .divContainer {
+      display: flex;
+      justify-content: center;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    h2 {
+      // border-bottom: 1px solid grey;
+    }
+    h3 {
+      border-bottom: 1px solid grey;
+    }
+  }
+
+  .topList {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    list-style: none;
+    // border-bottom: 1px solid grey;
+    padding: 0px;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .myCharts {
+    .chartsSection {
+      // background-color: red;s
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      // border: 1px solid yellow;
+    }
+    .topArticle {
+      height: 950px;
+      width: 1200px;
+      align-items: center;
+      justify-content: center;
+      // border: 1px solid green;
+    }
+  }
+}
+
+.numberList {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
