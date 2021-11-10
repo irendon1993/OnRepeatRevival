@@ -1,5 +1,7 @@
 {
   "name": "OnRepeat",
-  "private": "true"
-  
+  "private": "true",
+  "scripts": {
+    "start": "node server.js"
+  }
 }
