@@ -20,9 +20,9 @@ export function Header() {
     const json = await response.json()
 
     setUserInfo(json.display_name)
-    // setUserImage(
-    //   json.images.length > 0 ? json.images[0].url : playlistDefaultImage
-    // )
+    setUserImage(
+      json.images.length > 0 ? json.images[0].url : playlistDefaultImage
+    )
   }
 
   useEffect(() => {
