@@ -71,9 +71,9 @@ export function Header() {
           <li className="navItem">
             <Link to="/">Home</Link>
           </li>
-          <li className="navItem">
+          {/* <li className="navItem">
             <Link to="/create">Create a Playlist </Link>
-          </li>
+          </li> */}
           <li className="navItem">
             <Link to="/charts">My Charts</Link>
           </li>

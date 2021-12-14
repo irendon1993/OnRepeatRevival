@@ -22,7 +22,7 @@ export function App() {
         <Route exact path='/' component={Home} />
         <Route path='/charts' component={MyCharts} />
         <Route exact path="/playlist/:id" component={Playlist} />
-        <Route exact path="/create" component={CreateAPlaylist} />
+        {/* <Route exact path="/create" component={CreateAPlaylist} /> */}
         <Route path='/counter' component={Counter} />
         <Route path='/fetch-data' component={FetchData} />
         <Route path="/callback" component={SpotifyAuthCallback}>

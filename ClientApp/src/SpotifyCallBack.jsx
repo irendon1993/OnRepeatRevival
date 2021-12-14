@@ -9,13 +9,13 @@ export function SpotifyAuthCallback() {
   useEffect(() => {
     async function requestToken() {
       const BasicAuth = btoa(
-        '357044f51401415e96141eadaa6ff387:b679df270e804c0b891a10aaa7d85f0d'
+        'a89620779d994eb7b01ff6ee1bb88940:062649b4d02c426cba9f78d9d3d823a3'
       )
 
       const request = {
         grant_type: 'authorization_code',
         code,
-        redirect_uri: 'http://localhost:3000/callback',
+        redirect_uri: 'https://onrepeat-sdg.herokuapp.com/callback',
       }
 
       const response = await fetch('https://accounts.spotify.com/api/token', {
